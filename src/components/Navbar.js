@@ -35,11 +35,15 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
+        style={{
+          position: "fixed",
+          width: "100%"
+        }}
       >
-        <div className="container">
+        {/* <div className="container"> */}
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
               <img src={logo} alt="Kaldi" />
@@ -59,7 +63,7 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
+            {/* <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>
@@ -67,12 +71,12 @@ const Navbar = class extends React.Component {
                 Contact
               </Link>
 
-            </div>
+            </div> */}
             <div className="navbar-end has-text-centered">
 
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </nav>
     )
   }
