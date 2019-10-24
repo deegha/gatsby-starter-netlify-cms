@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Watch your favourite TV show clips
 image: /img/classic-crt-tv-device-2251206.jpg
-heading: Find and watch your favourite TV show
+heading: Watch your favourite TV show clips
 main pitch:
   title: sub title
   description: descriptioj
